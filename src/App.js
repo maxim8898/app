@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React  from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -10,7 +10,6 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 const  App = () => {
 
   const element = <FontAwesomeIcon icon={faCoffee} />
-    const [data, setData] = useState(null);
     return (
       <div className="App">
         <div className="App-header">
@@ -21,7 +20,6 @@ const  App = () => {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        { data }
         { element }
       </div>
     );
