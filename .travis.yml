@@ -10,6 +10,7 @@ deploy:
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   local_dir: build
+  homepage: https://maxim8898.github.io/app
   project_name: app
   repo: maxim8898/app
   on:
